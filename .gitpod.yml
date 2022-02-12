@@ -3,4 +3,4 @@ ports:
   - port: 6080
     onOpen: open-preview
 tasks:
-  - command: ./run.sh
+  - command: sudo chmod +x run.sh && ./run.sh
